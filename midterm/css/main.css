@@ -1,0 +1,138 @@
+/* Body and Wrapper */
+body {
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #d4e9e7;
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+}
+
+.header-img {
+    width: 100%;
+}
+
+#title {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+/* Navbar */
+nav {
+    text-align: center;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+    padding: 10px;
+}
+
+nav ul li:nth-child(2) {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Article */
+h2 {
+    font-size: 1.5rem;
+}
+
+#article {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.starfish-img {
+    float: left;
+    padding: 0 10px 10px 0;
+    width: 175px;
+    height: 175px;
+}
+
+/* Facts */
+#facts {
+    padding: 10px;
+}
+
+/* Contact Form */
+#contact {
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+}
+
+fieldset {
+    width: 100%;
+    border-color: black;
+}
+
+input {
+    display: flex;
+    width: 99%;
+}
+
+textarea {
+    resize: none;
+    width: 99%;
+}
+
+/* Visit */
+.radio {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+label {
+    display: flex;
+}
+
+/* Button */
+.button {
+    padding: 15px 15px;
+    margin: 2px 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Footer   */
+.copyright {
+    padding: 30px;
+    text-align: right;
+    font-size: small;
+    font-weight: bold;
+}
