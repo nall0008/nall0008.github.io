@@ -508,14 +508,19 @@ footer a:link {
 
     /* Home */
     .banner {
-        background-size: auto;
+        background-size: cover;
         min-height: 50vh;
         padding: 100px;
     }
 
     #home-container {
+        min-height: 50vh;
         padding-top: 50px;
-        min-height: 100%;
+    }
+
+    #home-container h1{
+        width: 60%;
+        line-height: 1.5;
     }
 
     .about-us {
