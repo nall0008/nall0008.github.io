@@ -1,257 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Page Mock-up</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header>
-      <div class="wrapper">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Page Mock-up</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/65a3214fe0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="wrapper">
+      <nav>
         <!-- Navbar with Logo -->
-        <nav>
+        <div class="logo-container">
           <img class="logo-img" src="images/logo.png" alt="logo" />
-          <ul style="list-style: none">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <form action="confirmation.html" method="post">
+          <input type="text" placeholder="Search" />
+          <button class="button"><i class="fa fa-search"></i></button>
+        </form>
+      </nav>
+    </div>
+  </header>
+  <!-- Main -->
+  <div class="banner">
+    <!-- Home -->
+    <div class="wrapper">
+      <div id="home-container" class="">
+        <h1>Welcome to Three Star Media</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <a class="home-btn" href="#">Connect with us<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+      </div>
+    </div>
+  </div>
+  <!-- About Us -->
+  <section class="about-us">
+    <div class="wrapper">
+      <div class="flex-container-cols about-container">
+        <div class="col">
+          <img class="about-us-img" src="images/about-us.jpg" alt="picture of ping pong table in office" />
+        </div>
+        <div class="col">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Services -->
+  <section id="services" class="services">
+    <div class="wrapper">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <article class="service service-1">
+          <img class="services-img" src="images/digital.jpg" alt="picture of laptop with smartphone" />
+          <div class="service-text">
+
+            <h3>Digital Transformation</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a class="btn" href="#">Digital Plans <i class="fa-solid fa-caret-right fa-2xl"></i></a>
+          </div>
+        </article>
+        <article class="service service-2">
+          <img class="services-img" src="images/marketing.jpg" alt="picture of laptop in office" />
+          <div class="service-text">
+            <h3>Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a class="btn" href="#">Marketing Plans<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+          </div>
+        </article>
+        <article class="service service-3">
+          <img class="services-img" src="images/video.jpg" alt="picture of smartphone" />
+          <div class="service-text">
+            <h3>Video Production</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a class="btn" href="#">Video Plans<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+          </div>
+        </article>
+        <article class="service service-4">
+          <img class="services-img" src="images/web.jpg" alt="picture of smartphone with notepad" />
+          <div class="service-text">
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a class="btn" href="#">Web Plans<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+          </div>
+        </article>
+        <article class="service service-5">
+          <img class="services-img" src="images/print.jpg" alt="picture of newspaper stands" />
+          <div class="service-text">
+            <h3>Print</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a class="btn" href="#">Print Plans<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- Vision -->
+  <div class="vision">
+    <div class="wrapper">
+      <h3>Our Vision</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat.
+      </p>
+      <a class="btn" href="#">Learn More<i class="fa-solid fa-caret-right fa-2xl"></i></a>
+    </div>
+  </div>
+  <!-- Team -->
+  <section id="team" class="team">
+    <div class="wrapper">
+      <h2>Our Team</h2>
+      <div class="team-members">
+
+        <div class="flex-container-cols team-member ">
+          <div class="col member-img">
+            <img src="images/john.jpg" alt="picture of john" />
+          </div>
+          <div class="col member-text">
+            <h3>John Doe</h3>
+            <h4>CEO and Co-owner</h4>
+            <hr class="team-member" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="flex-container-cols team-member">
+          <div class="col member-img">
+            <img class="team-img" src="images/bob.jpg" alt="picture of bob" />
+          </div>
+          <div class="col member-text">
+            <h3>Bob Rite</h3>
+            <h4>CFO and Co-owner</h4>
+            <hr class="team-member" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+  </section>
+  <section id="contact" class="contact">
+    <div class="wrapper">
+      <h2>Contact Us</h2>
+      <div id="contact-container" class="contact-container-grid">
+        <div class="c c1">
+          <h3>Send us a message</h3>
           <form action="confirmation.html" method="post">
-            <input type="text" placeholder="Search" />
-            <button class="button">&#128269;</button>
+            <label for="fullname">Full Name</label>
+            <input id="fullname" type="text" name="fullname" required />
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" required />
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="8" required></textarea>
+            <button class="button">Send</button>
           </form>
-        </nav>
-      </div>
-    </header>
-    <!-- Main -->
-    <main>
-      <div id="home-container">
-        <div class="wrapper">
-          <h1>Welcome to Three Star Media</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <a class="btn" href="#">Connect with us &#9654;</a>
         </div>
-      </div>
-      <!-- About Us -->
-      <section id="about-us">
-        <div class="wrapper">
-          <div class="flex-container-cols about-container">
-            <div class="col">
-              <img
-                class="about-us-img"
-                src="images/about-us.jpg"
-                alt="picture of ping pong table in office"
-              />
-            </div>
-            <div class="col">
-              <h2>About Us</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
+        <!-- Location -->
+        <div class="c c2">
+          <h3>Location</h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11215.777721548806!2d-75.754926!3d45.349934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1702350585884!5m2!1sen!2sca"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-      </section>
-      <!-- Services -->
-      <section id="services">
-        <div class="wrapper">
-          <h2>Our Services</h2>
-          <div class="services-grid">
-            <article>
-              <img
-                class="services-img"
-                src="images/digital.jpg"
-                alt="picture of laptop with smartphone"
-              />
-              <h3>Digital Transformation</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="button" href="#">Digital Plans &#9654;</a>
-            </article>
-            <article>
-              <img
-                class="services-img"
-                src="images/marketing.jpg"
-                alt="picture of laptop in office"
-              />
-              <h3>Marketing</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="btn" href="#">Marketing Plans &#9654;</a>
-            </article>
-            <article>
-              <img
-                class="services-img"
-                src="images/video.jpg"
-                alt="picture of smartphone"
-              />
-              <h3>Video Production</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="btn" href="#">Video Plans &#9654;</a>
-            </article>
-            <article>
-              <img
-                class="services-img"
-                src="images/web.jpg"
-                alt="picture of smartphone with notepad"
-              />
-              <h3>Web Development</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="btn" href="#">Web Plans &#9654;</a>
-            </article>
-            <article>
-              <img
-                class="services-img"
-                src="images/print.jpg"
-                alt="picture of newspaper stands"
-              />
-              <h3>Print</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <a class="btn" href="#">Print Plans &#9654;</a>
-            </article>
-          </div>
-        </div>
-      </section>
-      <!-- Vision -->
-      <section id="vision">
-        <div class="wrapper">
-          <h2>Our Vision</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <a class="btn" href="#">Learn More &#9654;</a>
-        </div>
-      </section>
-      <!-- Team -->
-      <section id="team">
-        <div class="wrapper">
-          <h2>Our Team</h2>
-          <div class="flex-container-cols team-member-one">
-            <div class="col member-img">
-              <img src="images/john.jpg" alt="picture of john" />
-            </div>
-            <div class="col member-text">
-              <h3>John Doe</h3>
-              <h3>CEO and Co-owner</h3>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </div>
-          </div>
-          <div class="flex-container-cols team-member-two">
-            <div class="col member-img">
-              <img class="team-img" src="images/bob.jpg" alt="picture of bob" />
-            </div>
-            <div class="col member-text">
-              <h3>Bob Rite</h3>
-              <h3>CFO and Co-owner</h3>
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Contact Form -->
-      <section id="contact">
-        <div class="wrapper">
-          <h2>Contact Us</h2>
-          <div id="contact-container" class="flex-container-cols">
-            <div class="col contact-col">
-              <h3>Send us a message</h3>
-              <form action="confirmation.html" method="post">
-                <label for="fullname">Full Name</label><br />
-                <input
-                  id="fullname"
-                  type="text"
-                  name="fullname"
-                  required
-                /><br />
-                <label for="email">Email</label><br />
-                <input id="email" type="text" name="email" required /><br />
-                <label for="message">Message</label><br />
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="8"
-                  required
-                ></textarea>
-                <button class="button">SEND</button>
-              </form>
-            </div>
-            <!-- Location -->
-            <div class="col location-col">
-              <h3>Location</h3>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944269826908!2d-75.75750062320192!3d45.34993724105448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1700587054552!5m2!1sen!2sca"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Hours of Operation -->
-      <section id="hours-of-operation">
-        <div class="wrapper">
+        <div class="hours c c3">
+          <!-- Hours of Operation -->
           <h3>Hours of Operation</h3>
           <table>
             <thead>
@@ -272,16 +250,18 @@
             </tbody>
           </table>
         </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer class="bg-black">
-      <div class="wrapper">
-        <p>&copy; Copyright Three Star Media, 2020</p>
-        <p>
-          All images are taken from <a href="https://unsplash.com/">Unsplash</a>
-        </p>
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-black">
+    <div class="wrapper">
+      <p>&copy; Copyright Three Star Media, 2020</p>
+      <p>
+        All images are taken from <a href="https://unsplash.com/">Unsplash</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
