@@ -520,9 +520,10 @@ footer a:link {
 
     #home-container h1{
         width: 60%;
-        line-height: 1.5;
+        line-height: 1.8;
     }
-
+    /* About Us */
+    
     .about-us {
         padding-left: 100px;
         padding-right: 100px;
